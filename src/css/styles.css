@@ -534,6 +534,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.font-gemunu {
+  font-family: Gemunu Libre, sans-serif;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -543,10 +547,12 @@ video {
   font-weight: 700;
 }
 
-.underline {
-  text-decoration-line: underline;
+.text-gega-melon {
+  --tw-text-opacity: 1;
+  color: rgb(255 211 105 / var(--tw-text-opacity));
 }
 
-.no-underline {
-  text-decoration-line: none;
+.text-gega-red {
+  --tw-text-opacity: 1;
+  color: rgb(234 67 53 / var(--tw-text-opacity));
 }
