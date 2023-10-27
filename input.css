@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base{
+    h1,h2,h3,h4,h5,h6{
+        @apply font uppercase;
+    }
+    a{
+        @apply font-gemunu
+    }
+}
+
+/*oncelikle base icine layer ve apply ile butun basliklar ve a etiketine font ve uppercase 
+komutunu verdim ancak tailwind ya algilamadi ya da ben kotaramadim google arastirmasiyla sorununcozumunu githubda buldum 
+.vscode uzantili dosyaya soylenen eklentileri dosyalari koydum, ve calisti
+*/
