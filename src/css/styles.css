@@ -790,6 +790,16 @@ a {
   padding-bottom: 1.5rem;
 }
 
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .pl-4 {
   padding-left: 1rem;
 }
@@ -887,20 +897,16 @@ a {
   margin-bottom: 0.25rem;
 }
 
+.group:hover .group-hover\:mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .group:hover .group-hover\:mb-2 {
   margin-bottom: 0.5rem;
 }
 
-.group:hover .group-hover\:mb-20 {
-  margin-bottom: 5rem;
-}
-
 .group:hover .group-hover\:ml-0 {
   margin-left: 0px;
-}
-
-.group:hover .group-hover\:mb-10 {
-  margin-bottom: 2.5rem;
 }
 
 .group:hover .group-hover\:text-gega-red {
