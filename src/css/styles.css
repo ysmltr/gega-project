@@ -891,6 +891,10 @@ a {
   padding-right: 1rem;
 }
 
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1092,6 +1096,10 @@ a {
   .lg\:py-12 {
     padding-top: 3rem;
     padding-bottom: 3rem;
+  }
+
+  .lg\:pl-0 {
+    padding-left: 0px;
   }
 
   .lg\:text-6xl {
