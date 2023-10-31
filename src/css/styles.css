@@ -682,6 +682,12 @@ a {
   flex-basis: 66.666667%;
 }
 
+.scale-110 {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -896,6 +902,10 @@ a {
   padding-left: 2rem;
 }
 
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -992,6 +1002,10 @@ a {
 .hover\:text-gega-red:hover {
   --tw-text-opacity: 1;
   color: rgb(234 67 53 / var(--tw-text-opacity));
+}
+
+.hover\:duration-500:hover {
+  transition-duration: 500ms;
 }
 
 .focus\:outline-none:focus {
