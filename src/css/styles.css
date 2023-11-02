@@ -589,6 +589,14 @@ a {
   left: 2.5rem;
 }
 
+.-top-12 {
+  top: -3rem;
+}
+
+.left-0 {
+  left: 0px;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -608,6 +616,14 @@ a {
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
 }
 
 .block {
@@ -640,6 +656,10 @@ a {
 
 .h-full {
   height: 100%;
+}
+
+.h-24 {
+  height: 6rem;
 }
 
 .w-24 {
@@ -676,6 +696,15 @@ a {
 
 .basis-3\/4 {
   flex-basis: 75%;
+}
+
+.basis-1\/2 {
+  flex-basis: 50%;
+}
+
+.-rotate-45 {
+  --tw-rotate: -45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .cursor-pointer {
@@ -811,6 +840,16 @@ a {
   background-color: transparent;
 }
 
+.bg-gega-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 247 / var(--tw-bg-opacity));
+}
+
+.bg-gega-melon {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 211 105 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -879,8 +918,9 @@ a {
   padding-bottom: 1.5rem;
 }
 
-.pb-16 {
-  padding-bottom: 4rem;
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .pl-10 {
@@ -924,6 +964,11 @@ a {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -1063,12 +1108,12 @@ a {
     height: 24rem;
   }
 
-  .md\:basis-1\/4 {
-    flex-basis: 25%;
-  }
-
   .md\:basis-1\/2 {
     flex-basis: 50%;
+  }
+
+  .md\:basis-1\/4 {
+    flex-basis: 25%;
   }
 
   .md\:pl-0 {
@@ -1077,6 +1122,10 @@ a {
 }
 
 @media (min-width: 1024px) {
+  .lg\:left-0 {
+    left: 0px;
+  }
+
   .lg\:h-128 {
     height: 32rem;
   }
@@ -1144,12 +1193,12 @@ a {
     padding-bottom: 3rem;
   }
 
-  .lg\:pl-0 {
-    padding-left: 0px;
-  }
-
   .lg\:pb-16 {
     padding-bottom: 4rem;
+  }
+
+  .lg\:pl-0 {
+    padding-left: 0px;
   }
 
   .lg\:text-6xl {
