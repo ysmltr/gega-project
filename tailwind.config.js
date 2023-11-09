@@ -12,7 +12,7 @@ module.exports = {
     },
     extend: {
       fontFamily:{
-        gemunu:['Gemunu Libre', 'sans-serif'],
+        inter:['Gemunu Libre', 'sans-serif'],
         open:['Open Sans', 'sans-serif']
       },
       colors:{
